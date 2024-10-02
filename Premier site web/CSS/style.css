@@ -1,0 +1,36 @@
+body{
+    background-color:antiquewhite;
+}
+h1{
+    background-color: rgba(0, 0, 0, 0.849);
+    color: rgba(255, 0, 0, 0.637);
+    text-align: center;
+    padding: 3%;
+    /* font-family: ; */
+    /* Inserer un police télécharger */
+
+}
+img{
+    width: 70%;
+    display: block;
+    margin: auto;
+
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+button{
+    display: block;
+    margin:auto;
+
+}
+
+#bonjou{
+    font-size: larger;
+
+}
+.date{
+    color: rgba(255, 0, 0, 0.637);
+
+}
