@@ -1,0 +1,99 @@
+body{
+    background-color:antiquewhite;
+}
+
+header{
+    height: 50vh; /*vh = "viewport height" ou pourcentage de hauteur de la fenêtre */
+}
+nav{
+    background-color: rgba(0, 0, 0);
+    display: flex;
+    justify-content: center;
+
+    
+    /* 
+    border-width: 3px;
+    border-style: solid 
+    border-color: black;*/
+    /* Version raccourci */
+    /* border:3px solid black; */
+
+    padding: 1%; 
+    
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+
+    display: flex;
+    gap: 30px;
+
+
+}
+
+nav a{
+    color: #f6d317;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+nav a:hover{
+    color: #f94c43;
+    font-size: large;
+}
+
+@font-face{
+    font-family: Bavicka;
+    src:url(Bavicka.otf);
+    src: url(Bavicka.ttf);
+    src: url(Bavicka.woff);
+}
+
+
+h1{
+    color:#f94c43;
+    text-align: center;
+    justify-content: center;
+    /* padding: 3%;
+    margin: 1%; */
+    font-family: "Nunito Sans";
+
+}
+
+img{
+    /* width: 15%;
+    justify-content: flex-start;
+    float: left;
+    padding-left: 30px; */
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px; */
+    display: block;
+    margin: auto;
+
+}
+p{
+    /* padding-top: 10px; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+button{
+    display: block;
+    margin:auto;
+
+}
+
+
+#bonjou{
+    font-size: larger;
+
+}
+.page_actuel{
+    color: #fce300;
+}
+.date{
+    color: rgba(255, 0, 0, 0.637);
+
+}
