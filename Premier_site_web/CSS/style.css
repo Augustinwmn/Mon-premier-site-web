@@ -1,0 +1,223 @@
+/* Memo :
+
+    vh = "viewport height" : pourcentage de hauteur de la fenêtre 
+    vw = "viewport widht" : pourcentage de largeur de la fenêtre
+
+    h1
+    color: #f94c43;                         Rouge
+
+    Font de page
+    color: #fce300;                         beige
+
+    couleur header
+    background-color: rgba(0, 0, 0);        Noir
+
+    couleur Texte
+    color: #f6d317;                         jaune-orangé(lien)
+
+    couleur footer
+    background-color: rgba(0, 0, 0, 0.8);   Gris
+
+    Page actuel
+    color: #fbff00;                         jaune(lien)
+
+
+    Decouverte 
+    
+    background image
+    background-size cover
+    background-position center
+    background-blend-mode darken
+    text-transform uppercase
+
+    voir github auer404
+*/
+
+body{
+    background-color:antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 300;
+    margin: 0;
+    /* width: 60%; */
+    /* text-align: center; */
+}
+/********************** Menu Nav **********************/
+header{
+    height: 11vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0);
+}
+nav{
+    display: flex;
+    justify-content: center;
+    /* 
+    border-width: 3px;
+    border-style: solid 
+    border-color: black;*/
+    /* Version raccourci */
+    /* border:3px solid black; */
+
+    padding: 1%; 
+    
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+
+    display: flex;
+    gap: 30px;
+
+
+}
+
+nav a{
+    color: #f6d317;
+    text-decoration: none;
+    font-family: sans-serif;
+    /* font-style: light; */
+}
+
+nav a:hover{
+    color: #f94c43;
+    font-size: large;
+}
+
+h1{
+    color:#f94c43;
+    text-align: center;
+    justify-content: center;
+    /* border: none; */
+    /* padding: 3px; */
+    padding: 10px;
+    margin: 0;
+    font-family: "Nunito Sans";
+}
+
+.page_actuel{
+    color: #fbff00;
+    font-weight: bold;
+}
+/********************** Nav Fin ***********************/
+
+/*********************** Image ************************/
+.parallax {
+    background-image: url(/img/Luv-Resval.png.webp);
+    height: 600px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax_img2 {
+    background-image: url(/img/Luv-Resval.png.webp);
+    height: 300px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}/*********************** Fin Image ********************/
+
+/* img{
+    width: 80%;
+    padding-left: 30px;
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px;/
+    display: block;
+    margin: auto;
+} */
+
+/* p{
+    /* padding-top: 10px; */
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    
+} */
+
+
+.p1{
+    margin: 0;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+}
+.p2{
+    padding-left: 10px;
+}
+.padding{
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #f6d317;
+    padding: 10px;
+    display: block;
+    justify-content: flex-end;
+    height: 20vh;
+    
+}
+
+footer a{
+    text-decoration: none;
+    color: #fbff00;
+
+}
+
+/* ---------------------Page Discographie--------------------- */
+
+img{
+    width: 340px;
+    height: 340px;
+    margin: 1%;
+}
+/* h2{
+    text-align: center;
+} */
+.container{
+    display: flex;
+    margin: 1%;
+}
+.container2{
+    display: flex;
+    /* flex-direction:row-reverse; */
+    margin: 1%;
+}
+h2{
+    text-align: center;
+}
+.setlist{
+    width: 60%;
+    height: 35%;
+    padding: 1%;
+}
+ol{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    /* gap: 30px; */
+    /* flex-direction: column; */
+}
+li{
+    margin-right: 50px;
+}
+.morceaux{
+    display: flex;
+    /* flex-wrap: wrap; */
+
+    flex-direction: column;
+    /* margin-left: 1%; */
+}
+.setlist p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: end;
+    margin-bottom: 0;
+}
