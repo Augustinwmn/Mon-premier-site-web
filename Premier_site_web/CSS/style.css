@@ -159,9 +159,8 @@ footer{
     background-color: rgba(0, 0, 0, 0.8);
     color: #f6d317;
     padding: 10px;
-    display: block;
-    justify-content: flex-end;
     height: 20vh;
+    text-align: start;
     
 }
 
@@ -173,9 +172,18 @@ footer a{
 
 /* ---------------------Page Discographie--------------------- */
 
+    
+   
+hr{
+  border: none;
+  border-top: 3px solid #000000;
+  overflow: visible;
+  text-align: center;
+  height: 5px;    
+}
 img{
     width: 340px;
-    height: 340px;
+    height: auto;
     /* display: flex; */
     /* flex-direction: column; */
     /* justify-content: center; */
@@ -186,6 +194,7 @@ img{
 } */
 .container{
     display: flex;
+    padding: auto;
     margin: 1%;
 }
 .container_reverse{
@@ -193,41 +202,51 @@ img{
     flex-direction:row-reverse;
     margin: 1%;
 }
-.boutique h2{
+.album h3{
+    display: block;
+    text-align: center;
+}
+.album h2{
+    display: block;
     text-align: center;
 }
 .container img{
+    margin: auto;
     margin-left: 0;
 }
 .container_reverse img{
+    margin: auto;
     margin-right: 0;
 }
 .setlist{
-    width: 60%;
+    width: auto;
     height: 35%;
     padding: 1%;
     padding-left: 0;
-    
+    margin: auto;
 }
+
 ol{
     display: flex;
-    /* flex-wrap: wrap; */
-    justify-content: center;
-
-    /* gap: 30px; */
+    flex-wrap: wrap;
+    /* justify-content: center; */
     /* flex-direction: column; */
 }
 li{
-    margin-right: 50px;
+    margin-right: 40px;
+    /* font-family: Snell Roundhand; */
+
 }
 .morceaux{
     display: flex;
-    /* flex-wrap: wrap; */
-
+    flex-wrap: wrap;
     flex-direction: column;
     /* margin-left: 1%; */
 }
-.setlist p{
+li, a{
+    color: black;
+}
+main p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: end;
     margin: 0;
